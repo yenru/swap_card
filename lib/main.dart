@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Swap Cards',
+      debugShowCheckedModeBanner: false,
       home: Scaffold(body: Center(child: CardSwapper())),
     );
   }
